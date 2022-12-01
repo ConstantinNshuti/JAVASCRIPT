@@ -1,0 +1,55 @@
+:root {
+    /* my document style 1 */
+    --as-font-01: sans-serif;
+    --as-width: 800px;
+    --as-t-head: darksalmon;
+    --as-t-fr:  yellow;
+    --as-t-sec : aqua;
+    --as-t-thr : navajowhite;
+
+}
+*{ /* all elements */
+    font-family: var(--as-font-01);
+}
+html {
+    width: var(--as-width);
+
+}
+table, th ,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.as-t-head{
+    background-color: var(--as-t-head);
+}
+.as-t-first{
+    background-color: var(--as-t-fr);
+}
+.as-t-second{
+    background-color: var(--as-t-sec);
+
+}
+.as-t-third{
+    background-color: var(--as-t-thr);
+
+}
+tr:hover  {
+    background: red;
+}
+td:hover {
+    background-color: darkred;
+}
+
+.as{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.as-input{
+    margin-left: 10px;
+}
+.as-button{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background-color: gray;
+}
